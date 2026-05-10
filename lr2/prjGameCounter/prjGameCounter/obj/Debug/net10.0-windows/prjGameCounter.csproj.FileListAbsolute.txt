@@ -1,0 +1,16 @@
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\bin\Debug\net10.0-windows\prjGameCounter.exe
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\bin\Debug\net10.0-windows\prjGameCounter.deps.json
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\bin\Debug\net10.0-windows\prjGameCounter.runtimeconfig.json
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\bin\Debug\net10.0-windows\prjGameCounter.dll
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\bin\Debug\net10.0-windows\prjGameCounter.pdb
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.Form1.resources
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.csproj.GenerateResource.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.AssemblyInfoInputs.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.AssemblyInfo.cs
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.dll
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\refint\prjGameCounter.dll
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.pdb
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\prjGameCounter.genruntimeconfig.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\prjGameCounter\prjGameCounter\obj\Debug\net10.0-windows\ref\prjGameCounter.dll

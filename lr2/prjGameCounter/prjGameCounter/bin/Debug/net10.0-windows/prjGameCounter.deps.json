@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "prjGameCounter/1.0.0": {
+        "runtime": {
+          "prjGameCounter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prjGameCounter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

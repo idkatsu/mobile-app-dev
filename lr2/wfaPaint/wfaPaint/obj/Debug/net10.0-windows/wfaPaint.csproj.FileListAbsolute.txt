@@ -1,0 +1,16 @@
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\bin\Debug\net10.0-windows\wfaPaint.exe
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\bin\Debug\net10.0-windows\wfaPaint.deps.json
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\bin\Debug\net10.0-windows\wfaPaint.runtimeconfig.json
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\bin\Debug\net10.0-windows\wfaPaint.dll
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\bin\Debug\net10.0-windows\wfaPaint.pdb
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.Form1.resources
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.csproj.GenerateResource.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.AssemblyInfoInputs.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.AssemblyInfo.cs
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.dll
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\refint\wfaPaint.dll
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.pdb
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\wfaPaint.genruntimeconfig.cache
+C:\Mac\Home\Documents\учеба\Мобильная разработка\wfaPaint\wfaPaint\obj\Debug\net10.0-windows\ref\wfaPaint.dll
