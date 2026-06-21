@@ -1,0 +1,95 @@
+<Window x:Class="KanbanBoard.WPF.Views.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Настройки" Width="520" Height="480"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="{DynamicResource AppBackground}">
+    <ScrollViewer Padding="20" VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <TextBlock Text="Настройки" FontSize="22" FontWeight="Bold"
+                       Foreground="{DynamicResource AppForeground}" Margin="0,0,0,16"/>
+
+            <TextBlock Text="Тема" FontWeight="SemiBold" Foreground="{DynamicResource AppForeground}" Margin="0,0,0,6"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                <RadioButton x:Name="LightRadio" Content="Светлая" IsChecked="True" Checked="LightTheme_Checked" Margin="0,0,16,0"
+                             Foreground="{DynamicResource AppForeground}"/>
+                <RadioButton x:Name="DarkRadio" Content="Тёмная" Checked="DarkTheme_Checked"
+                             Foreground="{DynamicResource AppForeground}"/>
+            </StackPanel>
+
+            <TextBlock Text="Акцентный цвет" FontWeight="SemiBold" Foreground="{DynamicResource AppForeground}" Margin="0,0,0,6"/>
+            <WrapPanel Margin="0,0,0,16">
+                <Border Width="30" Height="30" CornerRadius="15" Background="#2196F3" Margin="4" Cursor="Hand" Tag="#2196F3" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#F44336" Margin="4" Cursor="Hand" Tag="#F44336" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#4CAF50" Margin="4" Cursor="Hand" Tag="#4CAF50" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#FF9800" Margin="4" Cursor="Hand" Tag="#FF9800" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#9C27B0" Margin="4" Cursor="Hand" Tag="#9C27B0" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#00BCD4" Margin="4" Cursor="Hand" Tag="#00BCD4" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#795548" Margin="4" Cursor="Hand" Tag="#795548" MouseLeftButtonDown="Color_Click"/>
+                <Border Width="30" Height="30" CornerRadius="15" Background="#607D8B" Margin="4" Cursor="Hand" Tag="#607D8B" MouseLeftButtonDown="Color_Click"/>
+            </WrapPanel>
+
+            <TextBlock Text="Pomodoro" FontWeight="SemiBold" FontSize="16"
+                       Foreground="{DynamicResource AppForeground}" Margin="0,0,0,10"/>
+
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Работа" FontSize="12"
+                           Foreground="{DynamicResource SidebarForeground}" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" x:Name="WorkValue" Text="25 мин" FontSize="12" FontWeight="SemiBold" Width="50"
+                           Foreground="{DynamicResource AppForeground}" VerticalAlignment="Center" TextAlignment="Right"/>
+            </Grid>
+            <Slider x:Name="WorkSlider" Minimum="5" Maximum="60" Value="25" Margin="0,0,0,12"
+                    ValueChanged="WorkSlider_ValueChanged"/>
+
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Короткий перерыв" FontSize="12"
+                           Foreground="{DynamicResource SidebarForeground}" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" x:Name="ShortValue" Text="5 мин" FontSize="12" FontWeight="SemiBold" Width="50"
+                           Foreground="{DynamicResource AppForeground}" VerticalAlignment="Center" TextAlignment="Right"/>
+            </Grid>
+            <Slider x:Name="ShortSlider" Minimum="1" Maximum="30" Value="5" Margin="0,0,0,12"
+                    ValueChanged="ShortSlider_ValueChanged"/>
+
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Длинный перерыв" FontSize="12"
+                           Foreground="{DynamicResource SidebarForeground}" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" x:Name="LongValue" Text="15 мин" FontSize="12" FontWeight="SemiBold" Width="50"
+                           Foreground="{DynamicResource AppForeground}" VerticalAlignment="Center" TextAlignment="Right"/>
+            </Grid>
+            <Slider x:Name="LongSlider" Minimum="5" Maximum="60" Value="15" Margin="0,0,0,12"
+                    ValueChanged="LongSlider_ValueChanged"/>
+
+            <Grid Margin="0,0,0,16">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Помидоров до длинного перерыва" FontSize="12"
+                           Foreground="{DynamicResource SidebarForeground}" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" x:Name="PomValue" Text="4" FontSize="12" FontWeight="SemiBold" Width="50"
+                           Foreground="{DynamicResource AppForeground}" VerticalAlignment="Center" TextAlignment="Right"/>
+            </Grid>
+            <Slider x:Name="PomBeforeLong" Minimum="1" Maximum="8" Value="4" Margin="0,0,0,4"
+                    ValueChanged="PomBeforeLong_ValueChanged"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+                <Button Content="Сохранить" Click="Save_Click" Padding="16,8" Margin="0,0,8,0"
+                        Background="{DynamicResource AccentColor}" Foreground="{DynamicResource AccentForeground}" FontWeight="SemiBold"/>
+                <Button Content="Закрыть" Click="Close_Click" Padding="16,8"
+                        Background="{DynamicResource ButtonBackground}" Foreground="{DynamicResource ButtonForeground}"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

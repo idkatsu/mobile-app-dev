@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mac\\Home\\Desktop\\Canban\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|c:\\mac\\home\\desktop\\canban\\kanbanboard.core\\models\\kanbantask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|solutionrelative:kanbanboard.core\\models\\kanbantask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|c:\\mac\\home\\desktop\\canban\\kanbanboard.core\\interfaces\\ikanbanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|solutionrelative:kanbanboard.core\\interfaces\\ikanbanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|c:\\mac\\home\\desktop\\canban\\kanbanboard.core\\events\\pomodoroevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|solutionrelative:kanbanboard.core\\events\\pomodoroevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|c:\\mac\\home\\desktop\\canban\\kanbanboard.core\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|solutionrelative:kanbanboard.core\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|c:\\mac\\home\\desktop\\canban\\kanbanboard.core\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000001-0000-0000-0000-000000000001}|KanbanBoard.Core\\KanbanBoard.Core.csproj|solutionrelative:kanbanboard.core\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KanbanTask.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Models\\KanbanTask.cs",
+              "RelativeDocumentMoniker": "KanbanBoard.Core\\Models\\KanbanTask.cs",
+              "ToolTip": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Models\\KanbanTask.cs",
+              "RelativeToolTip": "KanbanBoard.Core\\Models\\KanbanTask.cs",
+              "ViewState": "AgIAAA0AAADwmZmZmTk7wAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T09:34:49.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IKanbanService.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Interfaces\\IKanbanService.cs",
+              "RelativeDocumentMoniker": "KanbanBoard.Core\\Interfaces\\IKanbanService.cs",
+              "ToolTip": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Interfaces\\IKanbanService.cs",
+              "RelativeToolTip": "KanbanBoard.Core\\Interfaces\\IKanbanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T09:34:46.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PomodoroEvents.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Events\\PomodoroEvents.cs",
+              "RelativeDocumentMoniker": "KanbanBoard.Core\\Events\\PomodoroEvents.cs",
+              "ToolTip": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Events\\PomodoroEvents.cs",
+              "RelativeToolTip": "KanbanBoard.Core\\Events\\PomodoroEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T09:33:52.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Enums\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "KanbanBoard.Core\\Enums\\TaskPriority.cs",
+              "ToolTip": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Enums\\TaskPriority.cs",
+              "RelativeToolTip": "KanbanBoard.Core\\Enums\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T09:33:46.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "KanbanBoard.Core\\Enums\\TaskStatus.cs",
+              "ToolTip": "C:\\Mac\\Home\\Desktop\\Canban\\KanbanBoard.Core\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "KanbanBoard.Core\\Enums\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T09:33:15.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

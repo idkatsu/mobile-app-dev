@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "KanbanBoard.WPF/1.0.0": {
+        "dependencies": {
+          "KanbanBoard.Core": "1.0.0"
+        },
+        "runtime": {
+          "KanbanBoard.WPF.dll": {}
+        }
+      },
+      "KanbanBoard.Core/1.0.0": {
+        "runtime": {
+          "KanbanBoard.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KanbanBoard.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KanbanBoard.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

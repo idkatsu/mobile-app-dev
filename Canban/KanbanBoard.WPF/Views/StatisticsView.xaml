@@ -1,0 +1,73 @@
+<UserControl x:Class="KanbanBoard.WPF.Views.StatisticsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="{DynamicResource AppBackground}">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="20">
+        <StackPanel MaxWidth="800" HorizontalAlignment="Center">
+            <TextBlock Text="Статистика" FontSize="24" FontWeight="Bold"
+                       Foreground="{DynamicResource AppForeground}" Margin="0,0,0,20"/>
+
+            <WrapPanel Margin="0,0,0,24">
+                <Border Width="180" Padding="16,12" Margin="0,0,12,12" CornerRadius="10"
+                        Background="{DynamicResource CardBackground}" BorderBrush="{DynamicResource BorderColor}" BorderThickness="1">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock Text="Всего задач" FontSize="12" Foreground="{DynamicResource SidebarForeground}" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Stats.TotalTasks}" FontSize="28" FontWeight="Bold"
+                                   Foreground="{DynamicResource AccentColor}" HorizontalAlignment="Center" Margin="0,6,0,0"/>
+                    </StackPanel>
+                </Border>
+                <Border Width="180" Padding="16,12" Margin="0,0,12,12" CornerRadius="10"
+                        Background="{DynamicResource CardBackground}" BorderBrush="{DynamicResource BorderColor}" BorderThickness="1">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock Text="Выполнено" FontSize="12" Foreground="{DynamicResource SidebarForeground}" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding Stats.CompletedTasks}" FontSize="28" FontWeight="Bold"
+                                   Foreground="{DynamicResource SuccessColor}" HorizontalAlignment="Center" Margin="0,6,0,0"/>
+                    </StackPanel>
+                </Border>
+                <Border Width="180" Padding="16,12" Margin="0,0,12,12" CornerRadius="10"
+                        Background="{DynamicResource CardBackground}" BorderBrush="{DynamicResource BorderColor}" BorderThickness="1">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock Text="Помидоров сегодня" FontSize="12" Foreground="{DynamicResource SidebarForeground}" HorizontalAlignment="Center"/>
+                        <TextBlock Text="{Binding PomodoroToday}" FontSize="28" FontWeight="Bold"
+                                   Foreground="{DynamicResource WarningColor}" HorizontalAlignment="Center" Margin="0,6,0,0"/>
+                    </StackPanel>
+                </Border>
+            </WrapPanel>
+
+            <TextBlock Text="Прогресс за 7 дней" FontSize="16" FontWeight="SemiBold"
+                       Foreground="{DynamicResource AppForeground}" Margin="0,0,0,10"/>
+            <Border Height="220" Background="{DynamicResource CardBackground}" BorderBrush="{DynamicResource BorderColor}"
+                    BorderThickness="1" CornerRadius="8" Padding="10">
+                <Canvas x:Name="ProgressChart" SizeChanged="ProgressChart_SizeChanged"/>
+            </Border>
+
+            <TextBlock Text="Задачи по приоритетам" FontSize="16" FontWeight="SemiBold"
+                       Foreground="{DynamicResource AppForeground}" Margin="0,20,0,10"/>
+            <Border Background="{DynamicResource CardBackground}" BorderBrush="{DynamicResource BorderColor}"
+                    BorderThickness="1" CornerRadius="8" Padding="20">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                        <TextBlock Text="Критический" Width="130" FontSize="13" Foreground="{DynamicResource SidebarForeground}"/>
+                        <ProgressBar Value="{Binding CriticalCount}" Maximum="100" Height="18" Width="260"
+                                     Foreground="#F44336" Background="{DynamicResource ButtonBackground}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                        <TextBlock Text="Высокий" Width="130" FontSize="13" Foreground="{DynamicResource SidebarForeground}"/>
+                        <ProgressBar Value="{Binding HighCount}" Maximum="100" Height="18" Width="260"
+                                     Foreground="#FF9800" Background="{DynamicResource ButtonBackground}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                        <TextBlock Text="Средний" Width="130" FontSize="13" Foreground="{DynamicResource SidebarForeground}"/>
+                        <ProgressBar Value="{Binding MediumCount}" Maximum="100" Height="18" Width="260"
+                                     Foreground="#2196F3" Background="{DynamicResource ButtonBackground}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Низкий" Width="130" FontSize="13" Foreground="{DynamicResource SidebarForeground}"/>
+                        <ProgressBar Value="{Binding LowCount}" Maximum="100" Height="18" Width="260"
+                                     Foreground="#9E9E9E" Background="{DynamicResource ButtonBackground}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
